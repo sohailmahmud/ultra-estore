@@ -1,0 +1,71 @@
+name: ultra_estore_flutter
+description: A new Flutter application.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.1.0+2
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  get_it: ^6.0.0
+  provider: ^5.0.0
+  http: ^0.13.1
+  freezed: ^0.14.1
+  shared_preferences: ^2.0.5
+  photo_view: ^0.11.1
+  dio: ^4.0.0-prev2
+  image_picker: ^0.7.3
+  pin_code_fields: ^7.0.0
+  google_maps_flutter_web: ^0.3.0
+  google_maps_flutter: ^2.0.3
+  geocoding: ^2.0.0
+  geolocator: ^7.0.1
+  shimmer_animation: ^2.0.0
+  url_launcher: ^6.0.2
+  webview_flutter: ^2.0.2
+  firebase_core: ^1.0.3
+  firebase_messaging: ^9.1.1
+  flutter_local_notifications: ^5.0.0-nullsafety.1
+  path_provider: ^2.0.1
+  flutter_html: ^2.0.0-nullsafety.0
+  connectivity: ^3.0.2
+  carousel_slider: ^4.0.0-nullsafety.0
+  fluro: ^2.0.3
+  url_strategy: ^0.2.0
+  universal_html: ^2.0.8
+  universal_ui: ^0.0.8
+  flutter_widget_from_html_core: ^0.6.1
+  phone_number: ^0.11.0+2
+  country_code_picker: ^2.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/image/
+    - assets/language/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/font/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/font/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/font/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/font/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/font/Poppins-Bold.ttf
+          weight: 700

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "250728969979",
+    "project_id": "grofresh-3986f",
+    "storage_bucket": "grofresh-3986f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:250728969979:android:375fde0efc7db10a75a25e",
+        "android_client_info": {
+          "package_name": "com.u6amtech.flutter_grocery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "250728969979-9nqsmhb458assn7q1a68cgasgg5q5mtg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTFm7oPur3xhZbVmCkgFkGFcR-44h6Gyo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "250728969979-9nqsmhb458assn7q1a68cgasgg5q5mtg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
